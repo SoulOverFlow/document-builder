@@ -1,0 +1,20 @@
+<%- partial('_component/head') %>
+
+<body>
+
+<% if(is_homepage() ){ %>
+
+    <%- partial('_page/homepage', {pagination: 2, index: true}) %>
+
+<% } else if (is_components()){ %>
+
+    <%- partial('_page/components', {pagination: 2, index: true}) %>
+
+<% } else { %>
+
+    <%- partial('_page/normal', {pagination: 2, index: true}) %>
+
+<% } %>
+
+</body>
+</html>

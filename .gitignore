@@ -1,0 +1,21 @@
+
+# osx
+.DS_Store
+._*
+
+
+# log
+logs
+*.log
+npm-debug.log*
+
+node_modules
+
+.idea
+document-builder.iml
+
+# vim
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+
+Your_Posts_Archives/example_posts_release

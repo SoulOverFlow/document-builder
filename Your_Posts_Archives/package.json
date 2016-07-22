@@ -1,0 +1,16 @@
+{
+  "name": "posts-archive",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/note -c=./example_posts --dist=./example_posts_release",
+    "init": "bin/init.sh"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "story.md": "0.0.7"
+  }
+}
