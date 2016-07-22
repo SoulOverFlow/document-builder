@@ -7,12 +7,12 @@
   "scripts": {
     "test": "node_modules/.bin/note -c=./example_posts --dist=./example_posts_release",
     "convert-document": "node_modules/.bin/note -c=./posts/document --dist=../Website/source/document",
-    "convert-components": "node_modules/.bin/note -c=./posts/components --dist=../Website/source/components",
+    "convert-components": "node_modules/.bin/note -c=./posts/components --dist=../Website/source --transform-components",
     "init": "bin/init.sh"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "story.md": "0.0.7"
+    "story.md": "0.0.8"
   }
 }
