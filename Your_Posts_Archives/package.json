@@ -5,7 +5,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/.bin/note -c=./example_posts --dist=./example_posts_release",
+    "test": "node_modules/.bin/note -c=./example_posts --dist=./example_release/document && node_modules/.bin/note -c=./example_components --dist=./example_release --transform-components",
     "convert-document": "node_modules/.bin/note -c=./posts/document --dist=../Website/source/document",
     "convert-components": "node_modules/.bin/note -c=./posts/components --dist=../Website/source --transform-components",
     "init": "bin/init.sh"
