@@ -19,3 +19,5 @@ document-builder.iml
 [._]s[a-w][a-z]
 
 Your_Posts_Archives/example_posts_release
+Your_Posts_Archives/posts
+!Your_Posts_Archives/posts/README.md

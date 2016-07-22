@@ -6,6 +6,7 @@
   "main": "index.js",
   "scripts": {
     "test": "node_modules/.bin/note -c=./example_posts --dist=./example_posts_release",
+    "convert": "node_modules/.bin/note -c=./posts --dist=../Website/source",
     "init": "bin/init.sh"
   },
   "author": "",
